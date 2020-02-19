@@ -10,7 +10,7 @@ console.log('N: %d', n);
 console.log('t: %d', t);
 console.log('---');
 let s = Date.now();
-let sum = backtrack(a, t);
+let sum = execute(a, t);
 let result = sum.reduce((a, b) => a + b)
 console.log('Sum: %s', result);
 console.log('Time: %dms', Date.now() - s);
